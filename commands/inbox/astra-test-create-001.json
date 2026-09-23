@@ -1,0 +1,18 @@
+{
+  "id": "astra-test-create-001",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "ASTRA_TEST",
+    "location": [
+      3,
+      0,
+      1
+    ],
+    "scale": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  }
+}
