@@ -1,0 +1,5 @@
+{
+  "id": "demo-ping-001",
+  "op": "bridge.ping",
+  "args": {}
+}
