@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 bl_info = {
     "name": "ASTRA Bridge",
     "author": "WTSC",
@@ -7,8 +9,6 @@ bl_info = {
     "description": "Safe JSON command bridge for When The Sky Clears",
     "category": "System",
 }
-
-from __future__ import annotations
 
 import json
 import math
@@ -100,11 +100,8 @@ def aim_camera(camera_obj: bpy.types.Object, target) -> None:
             raise ValueError(f"Target object not found: {target}")
         target_vec = target_obj.matrix_world.translation
     else:
-        target_vec = vec3(target)
-        target_vec = bpy.mathutils.Vector(target_vec) if hasattr(bpy, "mathutils") else None
-        if target_vec is None:
-            from mathutils import Vector
-            target_vec = Vector(vec3(target))
+        from mathutils import Vector
+        target_vec = Vector(vec3(target))
 
     direction = target_vec - camera_obj.location
     if direction.length == 0:
