@@ -1,0 +1,23 @@
+# Blender production files
+*.blend
+*.blend1
+*.blend2
+*.blend@
+*.blend.lock
+
+# Local-only configuration / credentials
+.env
+.env.*
+config.local.json
+runtime/
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Keep bridge exchange folders, but not temp files
+results/*.tmp
+previews/*.tmp
