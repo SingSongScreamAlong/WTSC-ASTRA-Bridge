@@ -1,0 +1,13 @@
+{
+  "id": "setup-ping-001",
+  "op": "bridge.ping",
+  "status": "success",
+  "completed_at": "2026-09-23T23:38:13.562031+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "bridge_version": "0.1.0",
+    "blender_version": "5.2.2 LTS",
+    "scene": "Scene",
+    "blend_file": "WTSC_ASTRA_TEST.blend"
+  }
+}
