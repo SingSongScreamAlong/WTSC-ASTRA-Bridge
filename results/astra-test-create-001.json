@@ -1,0 +1,30 @@
+{
+  "id": "astra-test-create-001",
+  "op": "object.create",
+  "status": "success",
+  "completed_at": "2026-09-23T23:58:20.428644+00:00",
+  "checkpoint_created": true,
+  "result": {
+    "name": "ASTRA_TEST",
+    "type": "MESH",
+    "location": [
+      3.0,
+      0.0,
+      1.0
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}
