@@ -1,0 +1,12 @@
+{
+  "id": "astra-clean-test-cube-002",
+  "op": "object.transform",
+  "args": {
+    "name": "ASTRA_TEST",
+    "location": [
+      3,
+      8,
+      1
+    ]
+  }
+}
