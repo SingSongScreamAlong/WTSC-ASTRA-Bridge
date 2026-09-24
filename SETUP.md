@@ -1,91 +1,34 @@
-# macOS setup
+# macOS setup for Blender 5.2.2
 
-## Before you start
+## Install once
 
-The GitHub repository should be **private** before any private story assets,
-previews, or production information are sent through it.
-
-## 1. Clone the repository
-
-Using Terminal:
+Clone the repository into `~/Documents`, open Blender 5.2.2 once, then link the add-on:
 
 ```bash
 cd ~/Documents
 git clone https://github.com/SingSongScreamAlong/WTSC-ASTRA-Bridge.git
 cd WTSC-ASTRA-Bridge
+python3 tools/setup_mac.py --blender-version 5.2
 ```
 
-If Git asks you to authenticate, use your normal GitHub credential flow.
+The helper creates a symlink from Blender's `5.2/scripts/addons/astra_bridge` folder to the clone. A later `git pull` updates that same source; there is no Python code to paste into Blender.
 
-## 2. Link the add-on into Blender
+In Blender, open **Preferences → Add-ons**, enable **ASTRA Bridge**, and set **Bridge Repo** to your cloned `WTSC-ASTRA-Bridge` folder. Keep **Auto Process Commands** and **Checkpoint Before Changes** enabled. Save Preferences.
 
-Launch Blender at least once, then close it. From the repo:
+Save your Blender scene once before sending changes. This gives the bridge a `.blend` path for local checkpoint copies.
 
-```bash
-python3 tools/setup_mac.py
-```
-
-The helper finds the newest Blender user configuration folder and creates a
-symlink to `blender_addon/astra_bridge`. This means future Git updates to the
-add-on land directly in the installed source.
-
-If you have several Blender versions, specify one:
+Start the sync process from the clone:
 
 ```bash
-python3 tools/setup_mac.py --blender-version 4.5
-```
-
-## 3. Enable ASTRA Bridge
-
-Open Blender:
-
-1. Open **Preferences > Add-ons**.
-2. Find **ASTRA Bridge** and enable it.
-3. Open the add-on's preferences.
-4. Set **Bridge Repo** to the local cloned repo folder.
-5. Leave **Auto Process Commands** and **Checkpoint Before Changes** enabled.
-
-The 3D Viewport sidebar will now have an **ASTRA** tab.
-
-## 4. Start the local sync daemon
-
-From Finder you can double-click `run_bridge.command` after macOS allows it.
-
-If macOS blocks the file because it is not executable, run once:
-
-```bash
-chmod +x run_bridge.command
 ./run_bridge.command
 ```
 
-Or simply:
+Leave that Terminal window open while using the bridge. The ASTRA tab in Blender's 3D Viewport shows the local queue and health status. Send a fresh `bridge.ping` command with a new ID to verify the round trip; the original setup ping was already processed.
 
-```bash
-python3 bridge/astra_bridge.py
-```
+## Updating an existing installation
 
-Keep the terminal window open while using the bridge.
+Follow [UPGRADE.md](UPGRADE.md). The installed symlink should already point to the clone, so you do not need to reinstall the add-on for each code update.
 
-## 5. First round-trip test
+## Security and local files
 
-A `bridge.ping` command is already queued in `commands/inbox/`.
-
-When all three pieces are active:
-
-- the daemon pulls the command,
-- Blender processes it,
-- Blender writes `results/setup-ping-001.json`,
-- the daemon pushes the result back to GitHub.
-
-Then return to the ChatGPT conversation and say **"bridge is running"**.
-
-## What is never auto-committed
-
-The sync daemon stages only:
-
-- `commands/`
-- `results/`
-- `previews/`
-
-It does not auto-commit source code, local configuration, credentials, or
-Blender project files. `.blend` files are explicitly ignored.
+The Git sync process stages only `commands/`, `results/`, and `previews/`. It does not auto-commit code, credentials, checkpoints, downloaded models, or `.blend` files. The repository is currently public, so make it private before sending unreleased story content through the command bus.

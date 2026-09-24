@@ -1,0 +1,33 @@
+{
+  "id": "demo-triangle-ball-box-v02",
+  "op": "batch.execute",
+  "args": {
+    "commands": [
+      {
+        "op": "object.create",
+        "args": {
+          "type": "triangle",
+          "name": "ASTRA_TRIANGLE",
+          "location": [-3, 0, 1]
+        }
+      },
+      {
+        "op": "object.create",
+        "args": {
+          "type": "sphere",
+          "name": "ASTRA_BALL",
+          "location": [0, 0, 0.75],
+          "scale": [0.75, 0.75, 0.75]
+        }
+      },
+      {
+        "op": "object.create",
+        "args": {
+          "type": "cube",
+          "name": "ASTRA_BOX",
+          "location": [3, 0, 1]
+        }
+      }
+    ]
+  }
+}

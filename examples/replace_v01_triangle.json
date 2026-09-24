@@ -1,0 +1,19 @@
+{
+  "id": "example-replace-v01-triangle",
+  "op": "batch.execute",
+  "args": {
+    "commands": [
+      {"op": "object.delete", "args": {"name": "TRIANGLE_LEFT"}},
+      {"op": "object.delete", "args": {"name": "TRIANGLE_RIGHT"}},
+      {"op": "object.delete", "args": {"name": "TRIANGLE_BASE"}},
+      {
+        "op": "object.create",
+        "args": {
+          "type": "triangle",
+          "name": "TRIANGLE",
+          "location": [-3, 0, 1]
+        }
+      }
+    ]
+  }
+}

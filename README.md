@@ -1,19 +1,22 @@
 # WTSC ASTRA Bridge
 
-A lightweight command bridge between ChatGPT/Astra and Blender for **When The Sky Clears**.
+ASTRA Bridge carries structured commands between ChatGPT and Blender for **When The Sky Clears**. A local Git sync process pulls commands from GitHub; the Blender 5.2 add-on applies allow-listed scene operations and writes results and previews back to the repository. Blender never needs GitHub credentials or a network connection of its own.
 
-> Security note: never commit tokens, credentials, private local paths, `.blend` production files, or unreleased story assets to this repository.
+The v0.2 upgrade adds real triangle and custom mesh objects, object cleanup, multi-step batches, one checkpoint per batch, queue recovery, health reporting, and frame-aware scene inspection and previews. See [COMMANDS.md](COMMANDS.md) for the command format and [UPGRADE.md](UPGRADE.md) to update an existing Mac installation.
 
-## v0.1 goal
+## The command loop
 
-Prove a reliable round-trip control loop:
+1. Place a uniquely named JSON file in `commands/inbox/` and commit it to GitHub.
+2. Run `run_bridge.command` in the local clone. It pulls commands and pushes results.
+3. The Blender add-on polls the inbox on Blender's main thread.
+4. Read `results/<id>.json`; rendered previews appear in `previews/`.
 
-1. ChatGPT writes a JSON command into `commands/inbox/`.
-2. A small local sync daemon pulls the repo to the Mac.
-3. The Blender add-on polls the local inbox with `bpy.app.timers`.
-4. Blender executes only allow-listed operations.
-5. Blender writes a JSON result into `results/`.
-6. The local daemon commits/pushes the result.
-7. ChatGPT reads the result.
+The add-on executes only known operations. Command files are data, never arbitrary Python. The sync process stages only the exchange folders; it does not publish source edits, `.blend` files, credentials, or local checkpoints. Keep production `.blend` files and downloaded model packs outside this repository.
 
-Initial commands: `bridge.ping`, `scene.inspect`, `scene.save`, `object.create`, `object.transform`, `object.inspect`, `camera.create`, `camera.set`, `collection.inspect`, and `render.preview`.
+## Start here
+
+- New installation: [SETUP.md](SETUP.md)
+- Existing v0.1 installation: [UPGRADE.md](UPGRADE.md)
+- Command examples and safety rules: [COMMANDS.md](COMMANDS.md)
+
+**Repository visibility:** This repository is currently public. Do not put private story material, sensitive scene metadata, or unreleased previews into commands/results until its visibility is changed to private.
