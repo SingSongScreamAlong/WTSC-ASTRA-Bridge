@@ -1,0 +1,17 @@
+{
+  "id": "astra-box-fix-002",
+  "op": "object.transform",
+  "args": {
+    "name": "BOX",
+    "location": [
+      3,
+      0,
+      0.8
+    ],
+    "scale": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  }
+}
