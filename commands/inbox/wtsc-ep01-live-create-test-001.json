@@ -1,0 +1,13 @@
+{
+  "id": "wtsc-ep01-live-create-test-001",
+  "op": "object.create",
+  "args": {
+    "type": "empty",
+    "name": "EP01_WORLD_ORIGIN",
+    "location": [
+      0,
+      0,
+      0
+    ]
+  }
+}
