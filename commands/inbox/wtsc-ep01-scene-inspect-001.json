@@ -1,0 +1,9 @@
+{
+  "id": "wtsc-ep01-scene-inspect-001",
+  "op": "scene.inspect",
+  "args": {
+    "include_objects": true,
+    "offset": 0,
+    "limit": 200
+  }
+}
