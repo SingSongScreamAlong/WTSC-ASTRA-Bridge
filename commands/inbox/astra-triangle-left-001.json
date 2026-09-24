@@ -1,0 +1,23 @@
+{
+  "id": "astra-triangle-left-001",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "TRIANGLE_LEFT",
+    "location": [
+      -3.5,
+      0,
+      1
+    ],
+    "rotation_degrees": [
+      0,
+      -60,
+      0
+    ],
+    "scale": [
+      0.12,
+      0.12,
+      1
+    ]
+  }
+}
