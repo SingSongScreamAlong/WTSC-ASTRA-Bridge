@@ -1,0 +1,8 @@
+{
+  "id": "wtsc-ep01-status-001",
+  "op": "bridge.status",
+  "status": "error",
+  "completed_at": "2026-09-24T15:01:39.395721+00:00",
+  "error": "Unsupported operation: bridge.status",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/conradweeden/Library/Application Support/Blender/5.2/scripts/addons/astra_bridge/__init__.py\", line 319, in process_one\n    first = 1 + (rings - 2) * segments\n                  ^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/conradweeden/Library/Application Support/Blender/5.2/scripts/addons/astra_bridge/__init__.py\", line 298, in execute\n    vertices = [(0.0, 0.0, 1.0)]\nValueError: Unsupported operation: bridge.status\n"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "wtsc-ep01-scene-inspect-001",
+  "op": "scene.inspect",
+  "status": "success",
+  "completed_at": "2026-09-24T15:01:39.393359+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "scene": "Scene",
+    "frame_current": 1,
+    "frame_start": 1,
+    "frame_end": 250,
+    "render_engine": "BLENDER_EEVEE",
+    "resolution": [
+      1920,
+      1080,
+      100
+    ],
+    "camera": "Camera",
+    "object_count": 3,
+    "collections": [
+      "Collection"
+    ],
+    "selected_objects": [
+      "Cube"
+    ],
+    "blend_file": null
+  }
+}
