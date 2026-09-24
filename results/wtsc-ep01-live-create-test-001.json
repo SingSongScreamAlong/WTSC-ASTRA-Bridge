@@ -1,0 +1,30 @@
+{
+  "id": "wtsc-ep01-live-create-test-001",
+  "op": "object.create",
+  "status": "success",
+  "completed_at": "2026-09-24T15:03:12.566552+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "name": "EP01_WORLD_ORIGIN",
+    "type": "EMPTY",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}
