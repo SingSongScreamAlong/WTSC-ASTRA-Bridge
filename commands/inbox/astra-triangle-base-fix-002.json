@@ -1,0 +1,22 @@
+{
+  "id": "astra-triangle-base-fix-002",
+  "op": "object.transform",
+  "args": {
+    "name": "TRIANGLE_BASE",
+    "location": [
+      -3,
+      0,
+      0.12
+    ],
+    "rotation_degrees": [
+      0,
+      90,
+      0
+    ],
+    "scale": [
+      0.12,
+      0.12,
+      1.2
+    ]
+  }
+}
