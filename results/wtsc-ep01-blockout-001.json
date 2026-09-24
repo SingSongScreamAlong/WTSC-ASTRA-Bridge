@@ -1,0 +1,8 @@
+{
+  "id": "wtsc-ep01-blockout-001",
+  "op": "batch.execute",
+  "status": "error",
+  "completed_at": "2026-09-24T15:02:36.521587+00:00",
+  "error": "Unsupported operation: batch.execute",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/conradweeden/Library/Application Support/Blender/5.2/scripts/addons/astra_bridge/__init__.py\", line 319, in process_one\n    first = 1 + (rings - 2) * segments\n                  ^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/conradweeden/Library/Application Support/Blender/5.2/scripts/addons/astra_bridge/__init__.py\", line 298, in execute\n    vertices = [(0.0, 0.0, 1.0)]\nValueError: Unsupported operation: batch.execute\n"
+}
