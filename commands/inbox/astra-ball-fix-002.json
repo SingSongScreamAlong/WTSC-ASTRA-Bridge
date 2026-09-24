@@ -1,0 +1,17 @@
+{
+  "id": "astra-ball-fix-002",
+  "op": "object.transform",
+  "args": {
+    "name": "BALL",
+    "location": [
+      0,
+      0,
+      0.75
+    ],
+    "scale": [
+      0.75,
+      0.75,
+      0.75
+    ]
+  }
+}
