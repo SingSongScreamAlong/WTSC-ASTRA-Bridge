@@ -1,0 +1,30 @@
+{
+  "id": "astra-ball-001",
+  "op": "object.create",
+  "status": "success",
+  "completed_at": "2026-09-24T00:06:49.878047+00:00",
+  "checkpoint_created": true,
+  "result": {
+    "name": "BALL",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}
