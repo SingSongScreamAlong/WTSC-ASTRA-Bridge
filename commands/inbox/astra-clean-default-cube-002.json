@@ -1,0 +1,12 @@
+{
+  "id": "astra-clean-default-cube-002",
+  "op": "object.transform",
+  "args": {
+    "name": "Cube",
+    "location": [
+      0,
+      8,
+      1
+    ]
+  }
+}
