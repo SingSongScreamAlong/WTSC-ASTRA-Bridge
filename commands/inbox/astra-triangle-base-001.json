@@ -1,0 +1,23 @@
+{
+  "id": "astra-triangle-base-001",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "TRIANGLE_BASE",
+    "location": [
+      -3,
+      0,
+      0.15
+    ],
+    "rotation_degrees": [
+      0,
+      90,
+      0
+    ],
+    "scale": [
+      0.12,
+      0.12,
+      0.6
+    ]
+  }
+}
