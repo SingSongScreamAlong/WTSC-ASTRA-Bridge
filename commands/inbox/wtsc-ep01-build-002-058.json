@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-058",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_PATH_FIELD_01",
+    "location": [
+      64,
+      11,
+      -0.03
+    ],
+    "scale": [
+      5,
+      1.4,
+      0.03
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      36.86989764584402
+    ]
+  }
+}

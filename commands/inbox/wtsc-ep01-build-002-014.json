@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-014",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_PROP_GIRL_BED",
+    "location": [
+      -3,
+      0,
+      3.55
+    ],
+    "scale": [
+      1,
+      2,
+      0.3
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

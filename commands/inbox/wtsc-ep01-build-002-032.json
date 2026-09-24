@@ -1,0 +1,18 @@
+{
+  "id": "wtsc-ep01-build-002-032",
+  "op": "object.create",
+  "args": {
+    "type": "sphere",
+    "name": "EP01_CHAR_BOY_WAIT",
+    "location": [
+      20,
+      2,
+      1
+    ],
+    "scale": [
+      0.35,
+      0.35,
+      0.35
+    ]
+  }
+}

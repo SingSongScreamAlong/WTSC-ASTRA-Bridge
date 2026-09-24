@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-017",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_PROP_KITCHEN_STOVE",
+    "location": [
+      5,
+      3.8,
+      0.7
+    ],
+    "scale": [
+      0.7,
+      0.5,
+      0.7
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

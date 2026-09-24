@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-026",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_ROAD_MAIN_04",
+    "location": [
+      46,
+      2.5,
+      -0.03
+    ],
+    "scale": [
+      6.18465843842649,
+      2.75,
+      0.03
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      14.036243467926477
+    ]
+  }
+}

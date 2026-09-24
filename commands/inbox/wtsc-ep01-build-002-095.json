@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-095",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_MARK_THUD_REACTION_STAKE",
+    "location": [
+      157,
+      56,
+      0.8
+    ],
+    "scale": [
+      0.04,
+      0.04,
+      0.8
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

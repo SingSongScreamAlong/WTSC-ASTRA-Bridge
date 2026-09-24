@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-004",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_HOUSE_UPPER_FLOOR",
+    "location": [
+      -1.5,
+      0,
+      3.2
+    ],
+    "scale": [
+      4.5,
+      5,
+      0.1
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

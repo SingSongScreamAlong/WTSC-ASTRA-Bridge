@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-047",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_BAKERY_FLOOR",
+    "location": [
+      52,
+      8,
+      0.1
+    ],
+    "scale": [
+      4.5,
+      4,
+      0.1
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

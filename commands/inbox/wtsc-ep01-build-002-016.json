@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-016",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_PROP_KITCHEN_TABLE",
+    "location": [
+      5,
+      0,
+      0.75
+    ],
+    "scale": [
+      1.2,
+      0.8,
+      0.75
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "wtsc-ep01-build-002-141",
+  "op": "object.create",
+  "args": {
+    "type": "sphere",
+    "name": "EP01_CAM_GATE_15",
+    "location": [
+      92,
+      -8,
+      1.6
+    ],
+    "scale": [
+      0.12,
+      0.12,
+      0.12
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-113",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_MARK_ADULT_GROUP_B_STAKE",
+    "location": [
+      94,
+      2,
+      0.8
+    ],
+    "scale": [
+      0.04,
+      0.04,
+      0.8
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

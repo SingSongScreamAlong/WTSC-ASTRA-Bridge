@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-053",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_PROP_BAKERY_COUNTER",
+    "location": [
+      52,
+      5,
+      0.8
+    ],
+    "scale": [
+      1.8,
+      0.5,
+      0.8
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

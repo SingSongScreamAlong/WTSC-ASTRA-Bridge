@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-125",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_MARK_HILL_OVERLOOK_FUTURE_STAKE",
+    "location": [
+      240,
+      -18,
+      12.8
+    ],
+    "scale": [
+      0.04,
+      0.04,
+      0.8
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

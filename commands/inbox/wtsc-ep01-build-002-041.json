@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-041",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_MARK_GARDEN_STAKE",
+    "location": [
+      39,
+      -5,
+      0.8
+    ],
+    "scale": [
+      0.04,
+      0.04,
+      0.8
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

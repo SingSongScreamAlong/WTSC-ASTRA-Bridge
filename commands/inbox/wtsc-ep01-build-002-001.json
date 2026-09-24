@@ -1,0 +1,12 @@
+{
+  "id": "wtsc-ep01-build-002-001",
+  "op": "object.transform",
+  "args": {
+    "name": "Cube",
+    "location": [
+      0,
+      0,
+      -50
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "wtsc-ep01-build-002-020",
+  "op": "object.create",
+  "args": {
+    "type": "sphere",
+    "name": "EP01_CHAR_MOTHER_STOVE",
+    "location": [
+      5,
+      2.8,
+      1.45
+    ],
+    "scale": [
+      0.35,
+      0.35,
+      0.35
+    ]
+  }
+}

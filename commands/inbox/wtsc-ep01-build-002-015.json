@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-015",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_PROP_BED_EDGE_LINE",
+    "location": [
+      -4,
+      0,
+      3.75
+    ],
+    "scale": [
+      0.06,
+      2,
+      0.06
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

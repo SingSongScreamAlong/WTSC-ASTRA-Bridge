@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-054",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_PROP_BREAD_RACK",
+    "location": [
+      54.5,
+      9.5,
+      1.2
+    ],
+    "scale": [
+      0.5,
+      0.3,
+      1.2
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

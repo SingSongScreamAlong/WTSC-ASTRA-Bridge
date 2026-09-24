@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-087",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_DIGGING_TREE_TRUNK",
+    "location": [
+      166,
+      61,
+      2
+    ],
+    "scale": [
+      0.7,
+      0.7,
+      2
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

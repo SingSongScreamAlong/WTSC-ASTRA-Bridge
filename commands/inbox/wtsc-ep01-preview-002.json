@@ -1,0 +1,8 @@
+{
+  "id": "wtsc-ep01-preview-002",
+  "op": "render.preview",
+  "args": {
+    "resolution_percentage": 25,
+    "camera": "EP01_MASTER_CAMERA"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "wtsc-ep01-build-002-104",
+  "op": "object.create",
+  "args": {
+    "type": "sphere",
+    "name": "EP01_RETURN_WP_03",
+    "location": [
+      132,
+      35,
+      0.22
+    ],
+    "scale": [
+      0.16,
+      0.16,
+      0.16
+    ]
+  }
+}

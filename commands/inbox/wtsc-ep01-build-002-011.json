@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-011",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_PORCH_FLOOR",
+    "location": [
+      11.5,
+      0,
+      0.35
+    ],
+    "scale": [
+      1.5,
+      4,
+      0.15
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

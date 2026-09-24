@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-051",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_BAKERY_FRONT_L",
+    "location": [
+      49.2,
+      4.1,
+      1.5
+    ],
+    "scale": [
+      1.6,
+      0.1,
+      1.5
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

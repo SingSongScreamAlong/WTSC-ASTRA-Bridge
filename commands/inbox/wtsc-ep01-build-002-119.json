@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-119",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP02_FUTURE_ROAD_01",
+    "location": [
+      135,
+      -10.5,
+      0.47
+    ],
+    "scale": [
+      15.008331019803634,
+      2.4,
+      0.03
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      -1.9091524329963763
+    ]
+  }
+}

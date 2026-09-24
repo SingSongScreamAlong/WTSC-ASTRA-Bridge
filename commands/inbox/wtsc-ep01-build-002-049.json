@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-049",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_BAKERY_WEST_WALL",
+    "location": [
+      47.6,
+      8,
+      1.5
+    ],
+    "scale": [
+      0.1,
+      4,
+      1.5
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

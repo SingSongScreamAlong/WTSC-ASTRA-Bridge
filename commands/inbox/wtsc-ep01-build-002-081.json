@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-081",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_FOREST_OCCLUDER_R",
+    "location": [
+      116,
+      46,
+      4
+    ],
+    "scale": [
+      15,
+      1.2,
+      4
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      24
+    ]
+  }
+}

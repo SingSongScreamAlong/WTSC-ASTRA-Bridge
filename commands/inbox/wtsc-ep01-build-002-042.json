@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-042",
+  "op": "object.create",
+  "args": {
+    "type": "triangle",
+    "name": "EP01_MARK_GARDEN_FLAG",
+    "location": [
+      39,
+      -5,
+      1.55
+    ],
+    "rotation_degrees": [
+      90,
+      0,
+      0
+    ],
+    "scale": [
+      0.35,
+      0.35,
+      0.35
+    ]
+  }
+}

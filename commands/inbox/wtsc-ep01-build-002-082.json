@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-082",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_CLEARING_GROUND",
+    "location": [
+      155,
+      55,
+      0
+    ],
+    "scale": [
+      25,
+      22.5,
+      0.08
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

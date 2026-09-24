@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-007",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_HOUSE_WALL_WEST",
+    "location": [
+      -5.9,
+      0,
+      1.4
+    ],
+    "scale": [
+      0.1,
+      5,
+      1.4
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-048",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_BAKERY_REAR_WALL",
+    "location": [
+      52,
+      11.9,
+      1.5
+    ],
+    "scale": [
+      4.5,
+      0.1,
+      1.5
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

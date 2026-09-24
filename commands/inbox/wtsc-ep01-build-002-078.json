@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-078",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_MARK_OPT_GATE_FOREST_STAKE",
+    "location": [
+      118,
+      41,
+      1.6
+    ],
+    "scale": [
+      0.04,
+      0.04,
+      0.8
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "wtsc-ep01-build-002-055",
+  "op": "object.create",
+  "args": {
+    "type": "sphere",
+    "name": "EP01_CHAR_NAMLEY",
+    "location": [
+      52,
+      6.5,
+      1.4
+    ],
+    "scale": [
+      0.4,
+      0.4,
+      0.4
+    ]
+  }
+}

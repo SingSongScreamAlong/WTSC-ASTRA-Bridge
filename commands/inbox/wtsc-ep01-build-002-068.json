@@ -1,0 +1,18 @@
+{
+  "id": "wtsc-ep01-build-002-068",
+  "op": "object.create",
+  "args": {
+    "type": "sphere",
+    "name": "EP01_PATH_WP_02",
+    "location": [
+      94,
+      31,
+      0.45
+    ],
+    "scale": [
+      0.18,
+      0.18,
+      0.18
+    ]
+  }
+}

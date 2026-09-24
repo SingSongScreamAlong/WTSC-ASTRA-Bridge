@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-124",
+  "op": "object.create",
+  "args": {
+    "type": "triangle",
+    "name": "EP01_MARK_EP02_CONTINUE_FLAG",
+    "location": [
+      120,
+      -10,
+      1.55
+    ],
+    "rotation_degrees": [
+      90,
+      0,
+      0
+    ],
+    "scale": [
+      0.35,
+      0.35,
+      0.35
+    ]
+  }
+}

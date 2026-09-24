@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-077",
+  "op": "object.create",
+  "args": {
+    "type": "triangle",
+    "name": "EP01_MARK_FOREST_ENTRY_FLAG",
+    "location": [
+      84,
+      26,
+      1.55
+    ],
+    "rotation_degrees": [
+      90,
+      0,
+      0
+    ],
+    "scale": [
+      0.35,
+      0.35,
+      0.35
+    ]
+  }
+}

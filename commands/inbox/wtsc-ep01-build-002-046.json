@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-046",
+  "op": "object.create",
+  "args": {
+    "type": "triangle",
+    "name": "EP01_MARK_CAMERA_POCKET_B_FLAG",
+    "location": [
+      44,
+      -4,
+      1.55
+    ],
+    "rotation_degrees": [
+      90,
+      0,
+      0
+    ],
+    "scale": [
+      0.35,
+      0.35,
+      0.35
+    ]
+  }
+}

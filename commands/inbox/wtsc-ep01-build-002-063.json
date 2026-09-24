@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-063",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_PATH_FOREST_03",
+    "location": [
+      111.5,
+      38.5,
+      0.62
+    ],
+    "scale": [
+      6.96419413859206,
+      0.9,
+      0.03
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      21.037511025421818
+    ]
+  }
+}

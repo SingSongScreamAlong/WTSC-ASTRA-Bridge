@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-084",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_FORT_POST_A",
+    "location": [
+      159,
+      60,
+      1
+    ],
+    "scale": [
+      0.08,
+      0.08,
+      1
+    ],
+    "rotation_degrees": [
+      0,
+      18,
+      12
+    ]
+  }
+}

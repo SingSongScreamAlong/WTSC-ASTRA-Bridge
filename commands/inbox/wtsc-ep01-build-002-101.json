@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-101",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_PATH_RETURN_05",
+    "location": [
+      97,
+      3,
+      -0.03
+    ],
+    "scale": [
+      9.899494936611665,
+      0.95,
+      0.03
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      -135
+    ]
+  }
+}

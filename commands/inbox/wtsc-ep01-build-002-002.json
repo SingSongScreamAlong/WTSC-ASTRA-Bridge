@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-002",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_GROUND_VILLAGE",
+    "location": [
+      60,
+      5,
+      -0.15
+    ],
+    "scale": [
+      75,
+      55,
+      0.15
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}

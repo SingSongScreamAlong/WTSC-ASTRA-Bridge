@@ -1,0 +1,18 @@
+{
+  "id": "wtsc-ep01-build-002-090",
+  "op": "object.create",
+  "args": {
+    "type": "sphere",
+    "name": "EP01_MAGIC_ROCK_03",
+    "location": [
+      160.1,
+      59.3,
+      0.14
+    ],
+    "scale": [
+      0.16,
+      0.14,
+      0.14
+    ]
+  }
+}

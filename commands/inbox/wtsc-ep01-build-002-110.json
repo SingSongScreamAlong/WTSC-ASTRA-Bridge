@@ -1,0 +1,23 @@
+{
+  "id": "wtsc-ep01-build-002-110",
+  "op": "object.create",
+  "args": {
+    "type": "cube",
+    "name": "EP01_PROP_THOMPSON_CART",
+    "location": [
+      87,
+      -7,
+      0.65
+    ],
+    "scale": [
+      1.4,
+      0.75,
+      0.65
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ]
+  }
+}
