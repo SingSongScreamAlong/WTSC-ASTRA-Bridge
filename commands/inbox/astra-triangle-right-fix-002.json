@@ -1,0 +1,22 @@
+{
+  "id": "astra-triangle-right-fix-002",
+  "op": "object.transform",
+  "args": {
+    "name": "TRIANGLE_RIGHT",
+    "location": [
+      -2.4,
+      0,
+      1.339
+    ],
+    "rotation_degrees": [
+      0,
+      -30,
+      0
+    ],
+    "scale": [
+      0.12,
+      0.12,
+      1.2
+    ]
+  }
+}
