@@ -1,0 +1,32 @@
+{
+  "id": "astra-clean-default-cube-002",
+  "op": "object.transform",
+  "status": "success",
+  "completed_at": "2026-09-24T00:28:04.422038+00:00",
+  "checkpoint_created": true,
+  "result": {
+    "name": "Cube",
+    "type": "MESH",
+    "location": [
+      0.0,
+      8.0,
+      1.0
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": [
+      "Material"
+    ]
+  }
+}

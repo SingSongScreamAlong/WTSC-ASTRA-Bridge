@@ -1,0 +1,30 @@
+{
+  "id": "astra-triangle-base-fix-002",
+  "op": "object.transform",
+  "status": "success",
+  "completed_at": "2026-09-24T00:28:04.441881+00:00",
+  "checkpoint_created": true,
+  "result": {
+    "name": "TRIANGLE_BASE",
+    "type": "MESH",
+    "location": [
+      -3.0,
+      0.0,
+      0.12
+    ],
+    "rotation_degrees": [
+      0.0,
+      90.000003,
+      0.0
+    ],
+    "scale": [
+      0.12,
+      0.12,
+      1.2
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}
