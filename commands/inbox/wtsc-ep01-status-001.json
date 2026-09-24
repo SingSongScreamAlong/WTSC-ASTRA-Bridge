@@ -1,0 +1,5 @@
+{
+  "id": "wtsc-ep01-status-001",
+  "op": "bridge.status",
+  "args": {}
+}
