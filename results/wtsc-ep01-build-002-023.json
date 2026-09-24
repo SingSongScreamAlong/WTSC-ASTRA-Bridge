@@ -1,0 +1,30 @@
+{
+  "id": "wtsc-ep01-build-002-023",
+  "op": "object.create",
+  "status": "success",
+  "completed_at": "2026-09-24T15:05:12.867528+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "name": "EP01_ROAD_MAIN_01",
+    "type": "MESH",
+    "location": [
+      16.0,
+      0.5,
+      -0.03
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      7.125016
+    ],
+    "scale": [
+      4.031129,
+      2.75,
+      0.03
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}

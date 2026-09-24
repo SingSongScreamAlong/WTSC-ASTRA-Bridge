@@ -1,0 +1,30 @@
+{
+  "id": "wtsc-ep01-build-002-051",
+  "op": "object.create",
+  "status": "success",
+  "completed_at": "2026-09-24T15:05:12.898428+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "name": "EP01_BAKERY_FRONT_L",
+    "type": "MESH",
+    "location": [
+      49.200001,
+      4.1,
+      1.5
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.6,
+      0.1,
+      1.5
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "wtsc-ep01-build-002-061",
+  "op": "object.create",
+  "status": "success",
+  "completed_at": "2026-09-24T15:05:12.913154+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "name": "EP01_PATH_FOREST_01",
+    "type": "MESH",
+    "location": [
+      89.0,
+      28.5,
+      0.07
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      26.565051
+    ],
+    "scale": [
+      5.59017,
+      0.9,
+      0.03
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "wtsc-ep01-preview-002",
+  "op": "render.preview",
+  "status": "success",
+  "completed_at": "2026-09-24T15:05:13.625075+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "preview": "previews/wtsc-ep01-preview-002.png",
+    "camera": "EP01_MASTER_CAMERA",
+    "frame": 1
+  }
+}

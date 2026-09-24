@@ -1,0 +1,30 @@
+{
+  "id": "wtsc-ep01-build-002-072",
+  "op": "object.create",
+  "status": "success",
+  "completed_at": "2026-09-24T15:05:12.953341+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "name": "EP01_PATH_WP_06",
+    "type": "MESH",
+    "location": [
+      142.0,
+      51.0,
+      1.05
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.18,
+      0.18,
+      0.18
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "wtsc-ep01-build-002-038",
+  "op": "object.create",
+  "status": "error",
+  "completed_at": "2026-09-24T15:05:12.886920+00:00",
+  "error": "Unsupported object type: triangle",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/conradweeden/Library/Application Support/Blender/5.2/scripts/addons/astra_bridge/__init__.py\", line 319, in process_one\n    first = 1 + (rings - 2) * segments\n                  ^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/conradweeden/Library/Application Support/Blender/5.2/scripts/addons/astra_bridge/__init__.py\", line 175, in execute\n    path.parent.mkdir(parents=True, exist_ok=True)\n            ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Unsupported object type: triangle\n"
+}

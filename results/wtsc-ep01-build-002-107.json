@@ -1,0 +1,30 @@
+{
+  "id": "wtsc-ep01-build-002-107",
+  "op": "object.create",
+  "status": "success",
+  "completed_at": "2026-09-24T15:05:13.047752+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "name": "EP01_RETURN_WP_06",
+    "type": "MESH",
+    "location": [
+      90.0,
+      -4.0,
+      0.22
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.16,
+      0.16,
+      0.16
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}

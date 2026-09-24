@@ -1,0 +1,28 @@
+{
+  "id": "wtsc-ep01-post-inspect-002",
+  "op": "scene.inspect",
+  "status": "success",
+  "completed_at": "2026-09-24T15:05:13.178425+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "scene": "Scene",
+    "frame_current": 1,
+    "frame_start": 1,
+    "frame_end": 250,
+    "render_engine": "BLENDER_EEVEE",
+    "resolution": [
+      1920,
+      1080,
+      100
+    ],
+    "camera": "EP01_MASTER_CAMERA",
+    "object_count": 126,
+    "collections": [
+      "Collection"
+    ],
+    "selected_objects": [
+      "EP01_MASTER_CAMERA"
+    ],
+    "blend_file": null
+  }
+}

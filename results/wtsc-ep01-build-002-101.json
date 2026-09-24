@@ -1,0 +1,30 @@
+{
+  "id": "wtsc-ep01-build-002-101",
+  "op": "object.create",
+  "status": "success",
+  "completed_at": "2026-09-24T15:05:13.012890+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "name": "EP01_PATH_RETURN_05",
+    "type": "MESH",
+    "location": [
+      97.0,
+      3.0,
+      -0.03
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      -135.0
+    ],
+    "scale": [
+      9.899495,
+      0.95,
+      0.03
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}

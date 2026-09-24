@@ -1,0 +1,30 @@
+{
+  "id": "wtsc-ep01-build-002-108",
+  "op": "object.create",
+  "status": "success",
+  "completed_at": "2026-09-24T15:05:13.049535+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "name": "EP01_SQUARE_GROUND",
+    "type": "MESH",
+    "location": [
+      90.0,
+      -4.0,
+      0.02
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      16.0,
+      15.0,
+      0.05
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}

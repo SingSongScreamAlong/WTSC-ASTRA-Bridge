@@ -1,0 +1,30 @@
+{
+  "id": "wtsc-ep01-build-002-008",
+  "op": "object.create",
+  "status": "success",
+  "completed_at": "2026-09-24T15:05:12.832379+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "name": "EP01_HOUSE_FRONT_N",
+    "type": "MESH",
+    "location": [
+      9.9,
+      3.0,
+      1.4
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.1,
+      2.0,
+      1.4
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}

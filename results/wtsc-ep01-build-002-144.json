@@ -1,0 +1,31 @@
+{
+  "id": "wtsc-ep01-build-002-144",
+  "op": "camera.create",
+  "status": "success",
+  "completed_at": "2026-09-24T15:05:13.178082+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "name": "EP01_MASTER_CAMERA",
+    "type": "CAMERA",
+    "location": [
+      -4.3,
+      -1.3,
+      3.85
+    ],
+    "rotation_degrees": [
+      82.256296,
+      5e-06,
+      -45.000001
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": [],
+    "lens": 50.0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "wtsc-ep01-build-002-138",
+  "op": "object.create",
+  "status": "success",
+  "completed_at": "2026-09-24T15:05:13.147366+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "name": "EP01_CAM_GATE_12",
+    "type": "MESH",
+    "location": [
+      145.0,
+      49.0,
+      1.8
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.12,
+      0.12,
+      0.12
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}

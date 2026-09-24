@@ -1,0 +1,30 @@
+{
+  "id": "wtsc-ep01-build-002-053",
+  "op": "object.create",
+  "status": "success",
+  "completed_at": "2026-09-24T15:05:12.900312+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "name": "EP01_PROP_BAKERY_COUNTER",
+    "type": "MESH",
+    "location": [
+      52.0,
+      5.0,
+      0.8
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.8,
+      0.5,
+      0.8
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}

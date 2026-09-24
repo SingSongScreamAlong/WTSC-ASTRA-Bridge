@@ -1,0 +1,30 @@
+{
+  "id": "wtsc-ep01-build-002-015",
+  "op": "object.create",
+  "status": "success",
+  "completed_at": "2026-09-24T15:05:12.841711+00:00",
+  "checkpoint_created": false,
+  "result": {
+    "name": "EP01_PROP_BED_EDGE_LINE",
+    "type": "MESH",
+    "location": [
+      -4.0,
+      0.0,
+      3.75
+    ],
+    "rotation_degrees": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.06,
+      2.0,
+      0.06
+    ],
+    "visible_viewport": true,
+    "visible_render": true,
+    "modifiers": [],
+    "materials": []
+  }
+}
